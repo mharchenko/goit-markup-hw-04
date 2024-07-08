@@ -209,9 +209,6 @@ li {
   margin: 0 auto 48px auto;
 }
 
-.page-title-second {
-}
-
 .start-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -243,8 +240,6 @@ li {
 /* ---------  ------- */
 
 /* ---------EXPLANATION-SECTION------- */
-.explanation {
-}
 
 .explanation-container {
   max-width: 1158px;
@@ -287,9 +282,6 @@ li {
   align-items: center;
 }
 
-.e-icons {
-}
-
 .title-explanation {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -313,9 +305,6 @@ li {
 /* ---------OUR-TEAM-FOTO------- */
 .our-team-foto {
   background-color: #f4f4fd;
-}
-
-.container {
 }
 
 .title {
@@ -342,9 +331,6 @@ li {
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.14);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-foto {
 }
 
 .our-team {
@@ -402,11 +388,6 @@ li {
 /* ---------  ------- */
 
 /* ---------OUR-PORTFOLIO-FOTO------- */
-.our-portfolio-foto {
-}
-
-.container {
-}
 
 .title-foto {
   margin-bottom: 72px;
@@ -458,9 +439,6 @@ li {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.foto-app {
 }
 
 .portfolio-foto {
@@ -523,9 +501,6 @@ li {
   color: #f4f4fd;
 }
 
-.footer-cont {
-}
-
 .page-footer .footer-logo-web {
   display: inline-block;
   margin-bottom: 16px;
@@ -582,7 +557,4 @@ li {
 
 .f-link {
   fill: #f4f4fd;
-}
-
-.f-icons {
 }
