@@ -92,7 +92,7 @@ li {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-studio {
@@ -104,9 +104,7 @@ li {
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
-  transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .meny {
@@ -116,7 +114,7 @@ li {
 
 .meny-part {
   padding: 24px 0;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .meny-link {
@@ -127,15 +125,13 @@ li {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .meny-item {
   position: relative;
   color: #404bbf;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .meny-item::after {
@@ -147,8 +143,6 @@ li {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-  transition-property: color;
-  transition-duration: 250ms;
 }
 
 .meny-link:hover,
@@ -171,7 +165,7 @@ li {
 }
 
 .contacts-net {
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
@@ -181,9 +175,7 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
