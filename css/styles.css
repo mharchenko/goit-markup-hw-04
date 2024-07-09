@@ -92,6 +92,7 @@ li {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-studio {
@@ -166,6 +167,10 @@ li {
 .contacts-item {
   display: flex;
   gap: 40px;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-net {
   transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -416,14 +421,13 @@ li {
   row-gap: 48px;
 }
 
-.foto-list-our:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .explanation-foto-our {
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.explanation-foto-our:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-item {
@@ -556,7 +560,6 @@ li {
 .media-list-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .f-link {
@@ -568,6 +571,7 @@ li {
   align-items: center;
   justify-content: center;
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .f-icons {
